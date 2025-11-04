@@ -1,7 +1,6 @@
 const links = document.querySelectorAll("header nav a");
 const sections = document.querySelectorAll(".section");
 
-// Pokazujemy tylko "O nas" na początku
 document.addEventListener("DOMContentLoaded", () => {
   sections.forEach(section => section.classList.remove("active"));
   document.getElementById("home").classList.add("active");
