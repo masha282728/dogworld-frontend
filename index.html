@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Świat Psów – Projekt Frontend</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Świat Psów</h1>
+  <nav>
+    <a href="#" data-target="home">O nas</a>
+    <a href="#" data-target="gallery">Rasy psów</a>
+    <a href="#" data-target="contact">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="section active">
+    <h2>O nas</h2>
+    <p>Witamy na stronie poświęconej psom! Znajdziesz tu informacje o rasach, opiece i ciekawostkach dotyczących naszych czworonożnych przyjaciół.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Rasy psów</h2>
+    <div class="gallery">
+      <div class="dog">
+        <img src="https://placedog.net/400/250?id=1" alt="Labrador">
+        <h3>Labrador Retriever</h3>
+        <p>Przyjazny, wierny i pełen energii pies rodzinny.</p>
+      </div>
+      <div class="dog">
+        <img src="https://placedog.net/400/250?id=2" alt="Owczarek niemiecki">
+        <h3>Owczarek niemiecki</h3>
+        <p>Inteligentny i odważny, często wykorzystywany w służbach mundurowych.</p>
+      </div>
+      <div class="dog">
+        <img src="https://placedog.net/400/250?id=3" alt="Beagle">
+        <h3>Beagle</h3>
+        <p>Wesoły i ciekawski pies, idealny dla aktywnych osób.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Kontakt</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Imię" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Wiadomość" required></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  © 2025 Mariia Martyshko 66766 — Projekt Frontend „Świat Psów”
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
